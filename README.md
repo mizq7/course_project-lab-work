@@ -1,4 +1,5 @@
-**Caesar Cipher Encryption Lab**
+# Caesar Cipher Encryption Lab
+
 Step 1: Open a Python Environment
 You can use a Python IDE (such as PyCharm or VS Code) or run Python in the terminal/command prompt.
 
