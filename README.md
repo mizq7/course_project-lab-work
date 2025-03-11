@@ -8,6 +8,7 @@ Create a new Python file (caesar_cipher.py) and copy the following code into it:
 
 # Step 1: Define the Caesar Cipher encryption function
 
+
 def caesar_cipher_encrypt(text, shift):
 
     encrypted_text = ""
@@ -30,6 +31,7 @@ def caesar_cipher_encrypt(text, shift):
 
 # Step 2: Define the Caesar Cipher decryption function
 
+
 def caesar_cipher_decrypt(text, shift):
 
     return caesar_cipher_encrypt(text, -shift)  # Reverse shift for decryption
@@ -37,14 +39,15 @@ def caesar_cipher_decrypt(text, shift):
 
 # Step 3: Get user input
 
+
 message = input("Enter the message to encrypt: ")
 
 
 shift = int(input("Enter shift value (e.g., 3): "))
 
 
-
 # Step 4: Perform encryption and decryption
+
 
 encrypted_message = caesar_cipher_encrypt(message, shift)
 
@@ -52,6 +55,7 @@ decrypted_message = caesar_cipher_decrypt(encrypted_message, shift)
 
 
 # Step 5: Display results
+
 
 print("\nOriginal Message: ", message)
 
