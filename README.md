@@ -1,12 +1,13 @@
 # Caesar Cipher Encryption Lab
 
-Step 1: Open a Python Environment
+# Step 1: Open a Python Environment
 You can use a Python IDE (such as PyCharm or VS Code) or run Python in the terminal/command prompt.
 
-Step 2: Write the Caesar Cipher Code
+# Step 2: Write the Caesar Cipher Code
 Create a new Python file (caesar_cipher.py) and copy the following code into it:
 
 # Step 1: Define the Caesar Cipher encryption function
+
 def caesar_cipher_encrypt(text, shift):
     encrypted_text = ""
     for char in text:
@@ -19,18 +20,22 @@ def caesar_cipher_encrypt(text, shift):
     return encrypted_text
 
 # Step 2: Define the Caesar Cipher decryption function
+
 def caesar_cipher_decrypt(text, shift):
     return caesar_cipher_encrypt(text, -shift)  # Reverse the shift to decrypt
 
 # Step 3: Take user input for the message and shift value
+
 message = input("Enter the message to encrypt: ")
 shift = int(input("Enter shift value (e.g., 3): "))
 
 # Step 4: Perform encryption and decryption
+
 encrypted_message = caesar_cipher_encrypt(message, shift)
 decrypted_message = caesar_cipher_decrypt(encrypted_message, shift)
 
 # Step 5: Display results
+
 print("\nOriginal Message: ", message)
 print("Encrypted Message: ", encrypted_message)
 print("Decrypted Message: ", decrypted_message)
