@@ -6,7 +6,7 @@ You can use a Python IDE (such as PyCharm or VS Code) or run Python in the termi
 # Step 2: Write the Caesar Cipher Code
 Create a new Python file (caesar_cipher.py) and copy the following code into it:
 
-# Caesar Cipher Decryption Function
+# Step 3: Caesar Cipher Decryption Function (Run the following code)
 def caesar_cipher_decrypt(text, shift):
     decrypted_text = ""
     for char in text:
@@ -29,14 +29,13 @@ decrypted_message = caesar_cipher_decrypt(encrypted_message, shift_value)
 print("\nEncrypted Message: ", encrypted_message)
 print("Decrypted Message: ", decrypted_message)
 
-
 # Running the Script in Terminal
 
 Step 1: Open Terminal or Command Prompt
 For macOS/Linux: Open Terminal.
 For Windows: Open Command Prompt (cmd) or PowerShell.
 
-# Step 2: Navigate to Your Project Folder
+# Step 4: Navigate to Your Project Folder
 Use the cd command to move into the directory where you saved the caesar_cipher.py file.
 
 If your folder name contains spaces, use:
@@ -48,7 +47,7 @@ If your folder name has spaces, escape them with a backslash ():
 
 cd Your/Project/Folder\ Path/
 
-# Step 3: Verify You Are in the Correct Directory
+# Step 5: Verify You Are in the Correct Directory
 Run:
 
 **(copy the following code)**
@@ -56,14 +55,14 @@ Run:
 pwd
 Expected Output: The path of your project folder should be displayed.
 
-# Step 4: Run Your Python Script
+# Step 6: Run Your Python Script
 Execute the script by running:
 **(copy the following code)**
 
 python3 caesar_cipher.py
 (Use python instead of python3 if your system uses Python 2 by default.)
 
-# Step 5: Enter Input for Encryption
+# Step 7: Enter Input for Encryption
 When prompted, enter a message and a shift value.
 
 Example Input:
