@@ -38,29 +38,35 @@ Running the Script in Terminal
 Step 1: Open Terminal or Command Prompt
 For macOS/Linux: Open Terminal.
 For Windows: Open Command Prompt (cmd) or PowerShell.
-Step 2: Navigate to Your Project Folder
+
+# Step 2: Navigate to Your Project Folder
 Use the cd command to move into the directory where you saved the caesar_cipher.py file.
 
 If your folder name contains spaces, use:
 **(copy the following code)**
+
 cd "Your/Project/Folder/Path"
 If your folder name has spaces, escape them with a backslash ():
 **(copy the following code)**
+
 cd Your/Project/Folder\ Path/
-Step 3: Verify You Are in the Correct Directory
+
+# Step 3: Verify You Are in the Correct Directory
 Run:
 
 **(copy the following code)**
+
 pwd
 Expected Output: The path of your project folder should be displayed.
 
-Step 4: Run Your Python Script
+# Step 4: Run Your Python Script
 Execute the script by running:
 **(copy the following code)**
+
 python3 caesar_cipher.py
 (Use python instead of python3 if your system uses Python 2 by default.)
 
-Step 5: Enter Input for Encryption
+# Step 5: Enter Input for Encryption
 When prompted, enter a message and a shift value.
 
 Example Input:
@@ -71,7 +77,7 @@ Original Message:  Hello World
 Encrypted Message:  Khoor Zruog
 Decrypted Message:  Hello World
 
-**How It Works**
+# How It Works
 The Caesar Cipher shifts each letter forward by the shift value (e.g., 3 shifts ‘H’ to ‘K’).
 Non-alphabetic characters (spaces, punctuation) remain unchanged.
 The decryption reverses the shift, restoring the original message.
