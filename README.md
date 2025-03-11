@@ -72,9 +72,13 @@ When prompted, enter a message and a shift value.
 Example Input:
 Enter the message to encrypt: Hello World
 Enter shift value (e.g., 3): 3
+
 Expected Output:
+
 Original Message:  Hello World
+
 Encrypted Message:  Khoor Zruog
+
 Decrypted Message:  Hello World
 
 # How It Works
